@@ -1,0 +1,85 @@
+#section_1 {
+  background-image: url("../img/img_main_bg.svg");
+  background-size: cover;
+  height: 52.81rem;
+  padding: 16rem 0;
+  position: relative;
+}
+
+.bg_text {
+  margin-left: 54rem;
+}
+
+.bg_text .txt_wrap_1 {
+  margin-bottom: 2.313rem;
+}
+
+.bg_text .txt_wrap_1 .txt_1 {
+  color: #ffffff;
+  font: bold 3.25rem "Noto Sans KR", sans-serif;
+  line-height: 3.25rem;
+  padding-bottom: 0.625rem;
+}
+
+.bg_text .txt_wrap_1 .txt_2 {
+  color: #ffffff;
+  font: bold 4.688rem "Noto Sans KR", sans-serif;
+  line-height: 4.563rem;
+  margin-bottom: 0.75rem;
+}
+
+.bg_text .txt_wrap_2 .leaf_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3.375rem;
+}
+
+.bg_text .txt_wrap_2 .leaf_box .img_trophy {
+  width: 48px;
+  height: 50px;
+}
+
+.bg_text .txt_wrap_2 .leaf_box .txt_box-column {
+  color: #ffffff;
+  margin: 0 0.625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg_text .txt_wrap_2 .leaf_box .txt_box__1 {
+  font: normal 400 1.313rem "Noto Sans KR", sans-serif;
+  margin-bottom: 0.3125rem;
+}
+
+.bg_text .txt_wrap_2 .leaf_box .txt_box__2 {
+  font: normal 200 1rem "Noto Sans KR", sans-serif;
+}
+
+.bg_text .txt_wrap_3 .store-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bg_text .txt_wrap_3 .store-btn span {
+  margin-left: 0.25rem;
+}
+
+.bg_text .txt_wrap_3 .store-btn a {
+  display: flex;
+  align-items: center;
+  background-color: #49a4fc;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 0 2.188rem;
+}
+
+.bg_text .txt_wrap_3 .store-btn .google-btn {
+  height: 3.313rem;
+  margin-right: 0.9375rem;
+}
+
+.bg_text .txt_wrap_3 .store-btn .apple-btn {
+  height: 3.313rem;
+}

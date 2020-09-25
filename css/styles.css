@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import "reset.css";
+@import "header_wrap.css";
+@import "img_box.css";
+@import "section_1.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#container {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
