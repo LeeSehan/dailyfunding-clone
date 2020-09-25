@@ -71,6 +71,7 @@
   align-items: center;
   background-color: #49a4fc;
   color: #ffffff;
+  z-index: 6;
   border-radius: 10px;
 }
 
