@@ -1,0 +1,35 @@
+#section_3 {
+  padding: 16.25rem 0 16.38rem 0;
+  border-bottom: gray solid 0.0625rem;
+}
+
+#section_3 .inner {
+  margin: 0 26.63rem;
+}
+
+#section_3 .inner .graphBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#section_3 .inner .graphBox__left {
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+#section_3 .graphBox__left .column_1 {
+  font: bold 2.938rem "Noto Sans KR", sans-serif;
+  line-height: 3.7rem;
+  margin-bottom: 2.125rem;
+}
+
+#section_3 .graphBox__left .column_2 p {
+  font: 300 1.813rem "Noto Sans KR", sans-serif;
+  line-height: 3.25rem;
+}
+
+#section_3 .graphBox__left .column_2 p span {
+  font: 400 1.813rem "Noto Sans KR", sans-serif;
+  margin-left: 0.4rem;
+}

@@ -1,0 +1,300 @@
+#section_1 {
+  background-image: url("../img/img_main_bg.svg");
+  background-size: cover;
+  height: 52.81rem;
+  padding: 16rem 0;
+  position: relative;
+}
+
+.bg_text {
+  margin-left: 54rem;
+}
+
+.bg_text .txt_wrap_1 {
+  margin-bottom: 2.313rem;
+}
+
+.bg_text .txt_wrap_1 .txt_1 {
+  color: #ffffff;
+  font: bold 3.25rem "Noto Sans KR", sans-serif;
+  line-height: 3.25rem;
+  padding-bottom: 0.625rem;
+}
+
+.bg_text .txt_wrap_1 .txt_2 {
+  color: #ffffff;
+  font: bold 4.688rem "Noto Sans KR", sans-serif;
+  line-height: 4.563rem;
+  margin-bottom: 0.75rem;
+}
+
+.bg_text .txt_wrap_2 .leaf_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3.375rem;
+}
+
+.bg_text .txt_wrap_2 .leaf_box .img_trophy {
+  width: 48px;
+  height: 50px;
+}
+
+.bg_text .txt_wrap_2 .leaf_box .txt_box-column {
+  color: #ffffff;
+  margin: 0 0.625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg_text .txt_wrap_2 .leaf_box .txt_box__1 {
+  font: normal 400 1.313rem "Noto Sans KR", sans-serif;
+  margin-bottom: 0.3125rem;
+}
+
+.bg_text .txt_wrap_2 .leaf_box .txt_box__2 {
+  font: normal 200 1rem "Noto Sans KR", sans-serif;
+}
+
+.bg_text .txt_wrap_3 .store-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bg_text .txt_wrap_3 .store-btn span {
+  margin-left: 0.25rem;
+}
+
+.bg_text .txt_wrap_3 .store-btn a {
+  display: flex;
+  align-items: center;
+  background-color: #49a4fc;
+  color: #ffffff;
+  z-index: 6;
+  border-radius: 10px;
+}
+
+.bg_text .txt_wrap_3 .store-btn .google-btn {
+  height: 3.313rem;
+  margin-right: 0.9375rem;
+}
+
+.bg_text .txt_wrap_3 .store-btn .apple-btn {
+  height: 3.313rem;
+}
+
+/* section_2 */
+/* section_2 & seciotn_3 공유 css */
+#section_2,
+#section_3 {
+  padding: 15.63rem 0 16.25rem 0;
+  border-bottom: rgba(128, 128, 128, 0.4) solid 0.0625rem;
+}
+
+#section_2 .inner,
+#section_3 .inner {
+  max-width: 65.63rem;
+  margin: 0 auto;
+}
+
+#section_2 .inner .graphBox,
+#section_3 .inner .graphBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#section_2 .inner .graphBox__left,
+#section_3 .inner .graphBox__left {
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+#section_2 .graphBox__left .column_1,
+#section_3 .graphBox__left .column_1 {
+  font: bold 2.938rem "Noto Sans KR", sans-serif;
+  line-height: 3.7rem;
+  margin-bottom: 2.125rem;
+}
+
+#section_2 .graphBox__left .column_2 p {
+  font: 300 1.813rem "Noto Sans KR", sans-serif;
+  line-height: 3.25rem;
+}
+
+#section_2 .graphBox__left .column_2 p span {
+  font: 400 1.813rem "Noto Sans KR", sans-serif;
+  margin-left: 0.4rem;
+}
+
+#section_2 .graphBox__left .column_2 .small_txt {
+  font: 300 1.5rem "Noto Sans KR", sans-serif;
+  margin-top: 2.5rem;
+}
+
+#section_2 .graphBox__right,
+#section_3 .graphBox__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .small-bubble {
+  background: url(../img/img_speech_bubble-small.png) 0% 0% no-repeat;
+  position: absolute;
+  top: 0;
+  left: -1.2rem;
+  width: 27.5rem;
+  height: 6.25rem;
+  z-index: 2;
+  margin-top: -70px;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble {
+  position: relative;
+  margin: 9.3rem 0 0 1.2rem;
+  padding: 1.5rem 0 0 1.8rem;
+  width: 30rem;
+  height: 12.5rem;
+  background: url(../img/img_speech_bubble-lg.svg) 0% 0% no-repeat;
+  color: #fff;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .dropdown_1,
+#section_2 .graphBox__right .right_box .lg_bubble .dropdown_2 {
+  outline: 0;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/img_arrow_down.svg) 100% 50% no-repeat;
+  color: #fff;
+  width: 9.3rem;
+  height: 3.4rem;
+  font: 700 1.8rem "Noto Sans KR", sans-serif;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .dropdown_1 option,
+#section_2 .graphBox__right .right_box .lg_bubble .dropdown_2 option {
+  font: 300 1.2rem "Noto Sans KR", sans-serif;
+  color: black;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .box_1 span,
+#section_2 .graphBox__right .right_box .lg_bubble .box_2 {
+  font: 700 1.8rem "Noto Sans KR", sans-serif;
+  padding: 0 0 0 0.3rem;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .box_2 .m_amount {
+  margin: 25px;
+}
+
+#section_2 .inner .graphBox__right .right_box .small_txt {
+  font: 300 1.063rem "Noto Sans KR", sans-serif;
+  color: #747474;
+  margin-top: -10px;
+  margin-left: 65px;
+}
+
+/* section_3 */
+#section_3 .inner .graphBox__left .column_2 p {
+  font: 300 1.813rem "Noto Sans KR", sans-serif;
+}
+
+#section_3 .graphBox__left .column_2 p span {
+  font: 400 1.813rem "Noto Sans KR", sans-serif;
+  letter-spacing: -0.01rem;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap {
+  position: relative;
+  background: url(../img/img_graph_bg.svg) no-repeat center;
+  width: 31.25rem;
+  height: 18.75rem;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap .txt_wrap {
+  font: 400 1.438rem "Noto Sans KR", sans-serif;
+  opacity: 55%;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap .wrap_1 {
+  display: flex;
+  justify-content: center;
+  height: 12.81rem;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap .wrap_2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12%;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap .wrap_2 .btn_txt_2 {
+  margin: 0 5% 0 0;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap .types-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_stable {
+  position: absolute;
+  top: 6.125rem;
+  right: 14.31rem;
+  background: url(../img/graph_stable.svg) no-repeat center;
+  width: 7.118rem;
+  height: 6.375rem;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_balance {
+  position: absolute;
+  top: 4.211rem;
+  right: 11.191rem;
+  background: url(../img/graph_balance.svg) no-repeat;
+  width: 8.75rem;
+  height: 7.563rem;
+}
+
+#section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_profit {
+  position: absolute;
+  top: 2.563rem;
+  right: 11.199rem;
+  background: url(../img/graph_profit.svg) no-repeat;
+  width: 7.125rem;
+  height: 9.188rem;
+}
+
+#section_3 .inner .graphBox__right .graph_types {
+  display: flex;
+  justify-content: center;
+  height: 2.625rem;
+  text-indent: -99999px;
+}
+
+#section_3 .inner .graphBox__right .graph_types .bt_1_stabletype {
+  background: url(../img/bt_1_stabletype.png) no-repeat;
+  width: 7.188rem;
+  height: 100%;
+  margin: 0.4375rem;
+}
+
+#section_3 .inner .graphBox__right .graph_types .bt_2_balancetype {
+  background: url(../img/bt_2_balancetype.png) no-repeat;
+  width: 9.3rem;
+  height: 100%;
+  margin: 0.4375rem;
+}
+
+#section_3 .inner .graphBox__right .graph_types .bt_3_profittype {
+  background: url(../img/bt_3_profittype.png) no-repeat;
+  width: 7.188rem;
+  height: 100%;
+  margin: 0.4375rem;
+}

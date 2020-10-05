@@ -2,7 +2,7 @@
 @import "reset.css";
 @import "header_wrap.css";
 @import "img_box.css";
-@import "section_1.css";
+@import "section.css";
 
 * {
   box-sizing: border-box;

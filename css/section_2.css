@@ -1,0 +1,104 @@
+/* #section_2 {
+  padding: 15.63rem 0 16.25rem 0;
+  border-bottom: gray solid 0.0625rem;
+}
+
+#section_2 .inner {
+  margin: 0 26.63rem;
+}
+
+#section_2 .inner .graphBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#section_2 .inner .graphBox__left {
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+#section_2 .graphBox__left .column_1 {
+  font: bold 2.938rem "Noto Sans KR", sans-serif;
+  line-height: 3.7rem;
+  margin-bottom: 2.125rem;
+}
+
+#section_2 .graphBox__left .column_2 p {
+  font: 300 1.813rem "Noto Sans KR", sans-serif;
+  line-height: 3.25rem;
+}
+
+#section_2 .graphBox__left .column_2 p span {
+  font: 400 1.813rem "Noto Sans KR", sans-serif;
+  margin-left: 0.4rem;
+}
+
+#section_2 .graphBox__left .column_2 .small_txt {
+  font: 300 1.5rem "Noto Sans KR", sans-serif;
+  margin-top: 2.5rem;
+}
+
+#section_2 .graphBox__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .small-bubble {
+  background: url(../img/img_speech_bubble-small.png) 0% 0% no-repeat;
+  position: absolute;
+  top: 0;
+  left: -1.2rem;
+  width: 27.5rem;
+  height: 6.25rem;
+  z-index: 2;
+  margin-top: -70px;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble {
+  position: relative;
+  margin: 9.3rem 0 0 1.2rem;
+  padding: 1.5rem 0 0 1.8rem;
+  width: 30rem;
+  height: 12.5rem;
+  background: url(../img/img_speech_bubble-lg.svg) 0% 0% no-repeat;
+  color: #fff;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .dropdown_1,
+#section_2 .graphBox__right .right_box .lg_bubble .dropdown_2 {
+  outline: 0;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/img_arrow_down.svg) 100% 50% no-repeat;
+  color: #fff;
+  width: 9.3rem;
+  height: 3.4rem;
+  font: 700 1.8rem "Noto Sans KR", sans-serif;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .dropdown_1 option,
+#section_2 .graphBox__right .right_box .lg_bubble .dropdown_2 option {
+  font: 300 1.2rem "Noto Sans KR", sans-serif;
+  color: black;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .box_1 span,
+#section_2 .graphBox__right .right_box .lg_bubble .box_2 {
+  font: 700 1.8rem "Noto Sans KR", sans-serif;
+  padding: 0 0 0 0.3rem;
+}
+
+#section_2 .graphBox__right .right_box .lg_bubble .box_2 .m_amount {
+  margin: 25px;
+}
+
+#section_2 .inner .graphBox__right .right_box .small_txt {
+  font: 300 1.063rem "Noto Sans KR", sans-serif;
+  color: #747474;
+  margin-top: -10px;
+  margin-left: 65px;
+} */
