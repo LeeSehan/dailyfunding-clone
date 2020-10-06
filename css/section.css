@@ -85,34 +85,39 @@
 }
 
 /* section_2 */
-/* section_2 & seciotn_3 공유 css */
+/* 공유 css */
 #section_2,
-#section_3 {
+#section_3,
+#section_4 {
   padding: 15.63rem 0 16.25rem 0;
   border-bottom: rgba(128, 128, 128, 0.4) solid 0.0625rem;
 }
 
 #section_2 .inner,
-#section_3 .inner {
+#section_3 .inner,
+#section_4 .inner {
   max-width: 65.63rem;
   margin: 0 auto;
 }
 
 #section_2 .inner .graphBox,
-#section_3 .inner .graphBox {
+#section_3 .inner .graphBox,
+#section_4 .inner .graphBox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 #section_2 .inner .graphBox__left,
-#section_3 .inner .graphBox__left {
+#section_3 .inner .graphBox__left,
+#section_4 .inner .graphBox__left {
   text-align: left;
   letter-spacing: 0.1rem;
 }
 
 #section_2 .graphBox__left .column_1,
-#section_3 .graphBox__left .column_1 {
+#section_3 .graphBox__left .column_1,
+#section_4 .graphBox__left .column_1 {
   font: bold 2.938rem "Noto Sans KR", sans-serif;
   line-height: 3.7rem;
   margin-bottom: 2.125rem;
@@ -134,10 +139,37 @@
 }
 
 #section_2 .graphBox__right,
-#section_3 .graphBox__right {
+#section_3 .graphBox__right,
+#section_4 .graphBox__right {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#section_2 .box-effect {
+  position: absolute;
+  animation-name: move, fadeIn;
+  animation-duration: 1.5s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes move {
+  from {
+    left: 65%;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #section_2 .graphBox__right .right_box .lg_bubble .small-bubble {
@@ -151,7 +183,8 @@
   margin-top: -70px;
 }
 
-#section_2 .graphBox__right .right_box .lg_bubble {
+#section_2 .graphBox__right .right_box .lg_bubble,
+#section_4 .graphBox__right .right_box .lg_bubble {
   position: relative;
   margin: 9.3rem 0 0 1.2rem;
   padding: 1.5rem 0 0 1.8rem;
@@ -191,7 +224,8 @@
   margin: 25px;
 }
 
-#section_2 .inner .graphBox__right .right_box .small_txt {
+#section_2 .inner .graphBox__right .right_box .small_txt,
+#section_4 .inner .graphBox__right .right_box .small_txt {
   font: 300 1.063rem "Noto Sans KR", sans-serif;
   color: #747474;
   margin-top: -10px;
@@ -297,4 +331,144 @@
   width: 7.188rem;
   height: 100%;
   margin: 0.4375rem;
+}
+
+/* section_4 */
+#section_4 .inner .graphBox__left .column_2 ul {
+  display: inline-block;
+  font: 400 1.813rem "Noto Sans KR", sans-serif;
+  line-height: 4.063rem;
+}
+
+#section_4 .inner .graphBox__left .column_2 li a {
+  display: block;
+  width: 10.63rem;
+}
+
+#section_4 .inner .graphBox__left .column_2 .li_1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #0096ff;
+}
+
+#section_4 .inner .graphBox__left .column_2 .li_2 {
+  display: flex;
+  align-items: center;
+}
+
+#section_4 .inner .graphBox__left .column_2 .li_3 {
+  display: flex;
+  align-items: center;
+}
+
+#section_4 .inner .graphBox__left .column_2 .li_1 img {
+  vertical-align: middle;
+  margin-bottom: 0.3125rem;
+}
+
+#section_4 .inner .graphBox__left .column_2 .li_1 .img_help {
+  position: absolute;
+  top: -7.313rem;
+  left: 0.5625rem;
+  background: url(../img/img_help.svg) no-repeat;
+  width: 27.25rem;
+  height: 8.25rem;
+  z-index: 3;
+}
+
+#section_4 .inner .graphBox__left .column_2 li span {
+  font: 800 1.25rem "Noto Sans KR", sans-serif;
+  letter-spacing: -0.0625rem;
+}
+
+#section_4 .inner .graphBox__left .column_2 li .bar {
+  height: 2.3rem;
+  margin-right: 1rem;
+  animation-duration: 1.5s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+#section_4 .inner .graphBox__left .column_2 li .bar-effect_1 {
+  animation-name: bar1, fadeIn;
+}
+
+#section_4 .inner .graphBox__left .column_2 li .bar-effect_2 {
+  animation-name: bar2, fadeIn;
+}
+
+#section_4 .inner .graphBox__left .column_2 li .bar-effect_3 {
+  animation-name: bar3, fadeIn;
+}
+
+#section_4 .inner .graphBox__left .column_2 li .val-effect {
+  animation-name: fadeIn;
+}
+
+@keyframes bar1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 3.5rem;
+  }
+}
+
+@keyframes bar2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7rem;
+  }
+}
+
+@keyframes bar3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 14rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#section_4 .inner .graphBox__left .column_2 li .val {
+  animation-duration: 1.5s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+#section_4 .inner .graphBox__left .column_2 li .val_2,
+#section_4 .inner .graphBox__left .column_2 li .val_3 {
+  color: #878787;
+}
+
+#section_4 .graphBox__right .right_box .lg_bubble .small-bubble {
+  background: url(../img/img_speech_bubble-small_2.png) 0% 0% no-repeat;
+  position: absolute;
+  top: 0;
+  left: -1.2rem;
+  width: 100%;
+  height: 6.25rem;
+  z-index: 2;
+  margin-top: -4.375rem;
+}
+
+#section_4 .graphBox__right .right_box .lg_bubble .box_1,
+#section_4 .graphBox__right .right_box .lg_bubble .box_2 {
+  font: 700 1.8rem "Noto Sans KR", sans-serif;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 0 0 0.3rem;
 }

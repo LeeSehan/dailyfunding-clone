@@ -1,4 +1,19 @@
-let dropdown_1 = $(".dropdown_1").val();
+let RIGHT_BOX = $("#section_2 .graphBox__right");
+
+$(window).scroll(function () {
+  let windowH = $(window).height(), // window 높이를 가져온다.
+    scrollY = $(window).scrollTop(); // window 스크롤바 수직 위치를 가져온다.
+
+  $(RIGHT_BOX).each(function () {
+    let elPosition = $(this).offset().top; // 선택한 graphBox_right의 위쪽 좌표를 가져온다.
+    // if- RIGHT_BOX의 윗부분이 나타나면 실행
+    if (scrollY > elPosition - windowH) {
+      $(this).addClass("box-effect");
+    }
+  });
+});
+
+/* let dropdown_1 = $(".dropdown_1").val();
 let dropdown_2 = $(".dropdown_2").val();
 
 function speech_bubble() {
@@ -13,7 +28,7 @@ function speech_bubble() {
     let result5 = ((dropdown_1 * 2.22) / 100 / 12) * dropdown_2;
 
     result = comma(result);
-    $("#m_amount").text(result);
+    $(".m_amount").text(result);
 
     result1 = price_cutting(1, result1);
     result2 = price_cutting(2, result2);
@@ -26,8 +41,6 @@ function speech_bubble() {
     $("#price3").text(result3);
     $("#price4").text(result4);
     $("#price5").text(result5);
-
-    move();
   }
 }
 
@@ -65,4 +78,4 @@ function comma(num) {
   return str;
 }
 
-speech_bubble();
+speech_bubble(); */
