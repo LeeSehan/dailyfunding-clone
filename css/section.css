@@ -89,7 +89,8 @@
 #section_2,
 #section_3,
 #section_4,
-#section_5 {
+#section_5,
+#section_6 {
   padding: 15.63rem 0 16.25rem 0;
   border-bottom: rgba(128, 128, 128, 0.4) solid 0.0625rem;
 }
@@ -97,14 +98,17 @@
 #section_2 .inner,
 #section_3 .inner,
 #section_4 .inner,
-#section_5 .inner {
+#section_5 .inner,
+#section_6 .inner {
   max-width: 65.63rem;
   margin: 0 auto;
 }
 
 #section_2 .inner .graphBox,
 #section_3 .inner .graphBox,
-#section_4 .inner .graphBox {
+#section_4 .inner .graphBox,
+#section_5 .inner .graphBox,
+#section_6 .inner .graphBox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -113,7 +117,8 @@
 #section_2 .inner .graphBox__left,
 #section_3 .inner .graphBox__left,
 #section_4 .inner .graphBox__left,
-#section_5 .inner .graphBox__left {
+#section_5 .inner .graphBox__left,
+#section_6 .inner .graphBox__left {
   text-align: left;
   letter-spacing: 0.1rem;
 }
@@ -121,7 +126,8 @@
 #section_2 .graphBox__left .column_1,
 #section_3 .graphBox__left .column_1,
 #section_4 .graphBox__left .column_1,
-#section_5 .graphBox__left .column_1 {
+#section_5 .graphBox__left .column_1,
+#section_6 .graphBox__left .column_1 {
   font: bold 2.938rem "Noto Sans KR", sans-serif;
   line-height: 3.7rem;
   margin-bottom: 2.125rem;
@@ -479,12 +485,6 @@
 }
 
 /* section_5 */
-#section_5 .inner .graphBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 #section_5 .inner .graphBox__left {
   margin-top: 1.563rem;
 }
@@ -499,4 +499,66 @@
 
 #section_5 .inner .graphBox__right .right_box table tr td img {
   margin: 2.188rem 1.563rem;
+}
+
+/* section_6 */
+#section_6 .inner .graphBox__left .column_2 a {
+  display: flex;
+  align-items: center;
+  font: 300 1.375rem "Noto Sans KR", sans-serif;
+}
+
+#section_6 .inner .graphBox__right .question_wrap .wrap {
+  display: flex;
+  flex-direction: column;
+  width: 533px;
+}
+
+#section_6 .inner .graphBox__right .question_wrap .wrap .qw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  font: 400 1.375rem "Noto Sans KR", sans-serif;
+  color: #434444;
+  line-height: 2.563rem;
+}
+
+#section_6 .inner .graphBox__right .question_wrap .wrap span {
+  margin-bottom: 33px;
+}
+
+#section_6 .inner .graphBox__right .question_wrap .wrap_1,
+#section_6 .inner .graphBox__right .question_wrap .wrap_2 {
+  margin-bottom: 33px;
+}
+
+#section_6 .inner .graphBox__right .question_wrap .wrap .btn {
+  background: url(../img/bt_arrow_down_black.svg) no-repeat;
+  display: inline-block;
+  width: 68px;
+  height: 65px;
+}
+
+#section_6 .inner .graphBox__right .question_wrap .wrap .question_txt {
+  background-color: #f8f8f8;
+  text-align: left;
+  letter-spacing: -0.66px;
+  font: 300 22px "Noto Sans KR", sans-serif;
+  color: #000000;
+  border-top: 1px solid #5a5a5a;
+
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+#section_6 .inner .graphBox__right .question_wrap .wrap .question_txt_1,
+#section_6 .inner .graphBox__right .question_wrap .wrap .question_txt_2 {
+  padding: 30px 0 30px 15px;
+}
+
+#section_6 .inner .graphBox__right .question_wrap .wrap .question_txt_3 {
+  padding: 15px;
 }
