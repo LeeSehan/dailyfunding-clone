@@ -88,14 +88,16 @@
 /* 공유 css */
 #section_2,
 #section_3,
-#section_4 {
+#section_4,
+#section_5 {
   padding: 15.63rem 0 16.25rem 0;
   border-bottom: rgba(128, 128, 128, 0.4) solid 0.0625rem;
 }
 
 #section_2 .inner,
 #section_3 .inner,
-#section_4 .inner {
+#section_4 .inner,
+#section_5 .inner {
   max-width: 65.63rem;
   margin: 0 auto;
 }
@@ -110,14 +112,16 @@
 
 #section_2 .inner .graphBox__left,
 #section_3 .inner .graphBox__left,
-#section_4 .inner .graphBox__left {
+#section_4 .inner .graphBox__left,
+#section_5 .inner .graphBox__left {
   text-align: left;
   letter-spacing: 0.1rem;
 }
 
 #section_2 .graphBox__left .column_1,
 #section_3 .graphBox__left .column_1,
-#section_4 .graphBox__left .column_1 {
+#section_4 .graphBox__left .column_1,
+#section_5 .graphBox__left .column_1 {
   font: bold 2.938rem "Noto Sans KR", sans-serif;
   line-height: 3.7rem;
   margin-bottom: 2.125rem;
@@ -140,7 +144,8 @@
 
 #section_2 .graphBox__right,
 #section_3 .graphBox__right,
-#section_4 .graphBox__right {
+#section_4 .graphBox__right,
+#section_5 .graphBox__right {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -471,4 +476,27 @@
   font: 700 1.8rem "Noto Sans KR", sans-serif;
   letter-spacing: 0.5px;
   padding: 0.5rem 0 0 0.3rem;
+}
+
+/* section_5 */
+#section_5 .inner .graphBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#section_5 .inner .graphBox__left {
+  margin-top: 1.563rem;
+}
+
+#section_5 .inner .graphBox__right .right_box table tr td {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 9.375rem;
+  height: 5.188rem;
+}
+
+#section_5 .inner .graphBox__right .right_box table tr td img {
+  margin: 2.188rem 1.563rem;
 }
