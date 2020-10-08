@@ -36,8 +36,8 @@
 }
 
 .bg_text .txt_wrap_2 .leaf_box .img_trophy {
-  width: 48px;
-  height: 50px;
+  width: 3rem;
+  height: 3.125rem;
 }
 
 .bg_text .txt_wrap_2 .leaf_box .txt_box-column {
@@ -72,7 +72,7 @@
   background-color: #49a4fc;
   color: #ffffff;
   z-index: 6;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .bg_text .txt_wrap_3 .store-btn .google-btn {
@@ -90,7 +90,8 @@
 #section_3,
 #section_4,
 #section_5,
-#section_6 {
+#section_6,
+#section_7 {
   padding: 15.63rem 0 16.25rem 0;
   border-bottom: rgba(128, 128, 128, 0.4) solid 0.0625rem;
 }
@@ -99,7 +100,8 @@
 #section_3 .inner,
 #section_4 .inner,
 #section_5 .inner,
-#section_6 .inner {
+#section_6 .inner,
+#section_7 .inner {
   max-width: 65.63rem;
   margin: 0 auto;
 }
@@ -191,7 +193,7 @@
   width: 27.5rem;
   height: 6.25rem;
   z-index: 2;
-  margin-top: -70px;
+  margin-top: -4.375rem;
 }
 
 #section_2 .graphBox__right .right_box .lg_bubble,
@@ -232,15 +234,15 @@
 }
 
 #section_2 .graphBox__right .right_box .lg_bubble .box_2 .m_amount {
-  margin: 25px;
+  margin: 1.563rem;
 }
 
 #section_2 .inner .graphBox__right .right_box .small_txt,
 #section_4 .inner .graphBox__right .right_box .small_txt {
   font: 300 1.063rem "Noto Sans KR", sans-serif;
   color: #747474;
-  margin-top: -10px;
-  margin-left: 65px;
+  margin-top: -0.625rem;
+  margin-left: 4.063rem;
 }
 
 /* section_3 */
@@ -511,7 +513,7 @@
 #section_6 .inner .graphBox__right .question_wrap .wrap {
   display: flex;
   flex-direction: column;
-  width: 533px;
+  width: 33.31rem;
 }
 
 #section_6 .inner .graphBox__right .question_wrap .wrap .qw {
@@ -525,26 +527,26 @@
 }
 
 #section_6 .inner .graphBox__right .question_wrap .wrap span {
-  margin-bottom: 33px;
+  margin-bottom: 2.063rem;
 }
 
 #section_6 .inner .graphBox__right .question_wrap .wrap_1,
 #section_6 .inner .graphBox__right .question_wrap .wrap_2 {
-  margin-bottom: 33px;
+  margin-bottom: 2.063rem;
 }
 
 #section_6 .inner .graphBox__right .question_wrap .wrap .btn {
   background: url(../img/bt_arrow_down_black.svg) no-repeat;
   display: inline-block;
-  width: 68px;
-  height: 65px;
+  width: 4.25rem;
+  height: 4.063rem;
 }
 
 #section_6 .inner .graphBox__right .question_wrap .wrap .question_txt {
   background-color: #f8f8f8;
   text-align: left;
   letter-spacing: -0.66px;
-  font: 300 22px "Noto Sans KR", sans-serif;
+  font: 300 1.375rem "Noto Sans KR", sans-serif;
   color: #000000;
   border-top: 1px solid #5a5a5a;
 
@@ -556,9 +558,30 @@
 
 #section_6 .inner .graphBox__right .question_wrap .wrap .question_txt_1,
 #section_6 .inner .graphBox__right .question_wrap .wrap .question_txt_2 {
-  padding: 30px 0 30px 15px;
+  padding: 1.875rem 0 1.875rem 0.9375rem;
 }
 
 #section_6 .inner .graphBox__right .question_wrap .wrap .question_txt_3 {
-  padding: 15px;
+  padding: 0.9375rem;
+}
+
+/* section_7 */
+#section_7 .inner .graphBox .box_txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 700 3.375rem "Noto Sans KR", sans-serif;
+  letter-spacing: 0.25rem;
+  color: #000000;
+  text-align: center;
+}
+
+#section_7 .inner .graphBox .box_txt img {
+  margin-left: 1rem;
+}
+
+#section_7 .inner .graphBox .btn_wrap a {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.875rem;
 }

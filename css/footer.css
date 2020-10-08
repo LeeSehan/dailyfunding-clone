@@ -1,0 +1,72 @@
+footer {
+  background: #3e4046;
+  padding: 5.438rem 0 0;
+  width: 100%;
+  height: 43.75rem;
+}
+
+footer .inner {
+  max-width: 65.63rem;
+  margin: 0 auto;
+  font: 300 18px "Noto Sans KR", sans-serif;
+  letter-spacing: -0.36px;
+  color: #ffffff;
+}
+
+footer .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .box .btn_wrap a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  text-indent: -99999px;
+}
+
+footer .box .btn_wrap a:nth-child(1) {
+  background: url(../img/bt_blog.svg) no-repeat;
+}
+
+footer .box .btn_wrap a:nth-child(2) {
+  background: url(../img/bt_instagram.svg) no-repeat;
+}
+
+footer .box .btn_wrap a:nth-child(3) {
+  background: url(../img/bt_brunch.svg) no-repeat;
+}
+
+footer .box .btn_wrap a:nth-child(4) {
+  background: url(../img/bt_youtube.svg) no-repeat;
+}
+
+footer .box .info {
+  margin-top: 1.25rem;
+}
+
+footer .box .notice {
+  margin-top: 3.563rem;
+}
+
+footer .box .info_bot {
+  margin-top: 6.563rem;
+}
+
+footer .box .info_bot ul {
+  display: flex;
+  flex-direction: row;
+  font: 300 1rem "Noto Sans KR", sans-serif;
+  color: #808080;
+}
+
+footer .box .info_bot ul li {
+  margin: 0.625rem;
+}
+
+footer .box .copy_txt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

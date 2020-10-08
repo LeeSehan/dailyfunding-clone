@@ -3,6 +3,7 @@
 @import "header_wrap.css";
 @import "img_box.css";
 @import "section.css";
+@import "footer.css";
 
 * {
   box-sizing: border-box;
@@ -11,7 +12,7 @@
 html,
 body,
 #container {
-  height: 100%;
+  height: auto;
 }
 
 a {
