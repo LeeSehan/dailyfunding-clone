@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 @import "reset.css";
-@import "header_wrap.css";
+@import "header.css";
 @import "img_box.css";
 @import "section.css";
 @import "footer.css";
@@ -13,6 +13,14 @@ html,
 body,
 #container {
   height: auto;
+}
+
+@media (max-width: 1024px) {
+  html,
+  body,
+  #container {
+    width: 100%;
+  }
 }
 
 a {

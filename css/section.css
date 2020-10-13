@@ -6,83 +6,229 @@
   position: relative;
 }
 
-.bg_text {
-  margin-left: 54rem;
+#section_1 .bg_text {
+  margin-left: 45%;
+  color: #ffffff;
 }
 
-.bg_text .txt_wrap_1 {
+@media (max-width: 1200px) {
+  .bg_text {
+    margin-left: 55%;
+  }
+}
+
+#section_1 .bg_text .txt_wrap_1 {
   margin-bottom: 2.313rem;
 }
 
-.bg_text .txt_wrap_1 .txt_1 {
-  color: #ffffff;
+#section_1 .bg_text .txt_wrap_1 .txt_1 {
   font: bold 3.25rem "Noto Sans KR", sans-serif;
   line-height: 3.25rem;
   padding-bottom: 0.625rem;
 }
 
-.bg_text .txt_wrap_1 .txt_2 {
-  color: #ffffff;
+#section_1 .bg_text .txt_wrap_1 .txt_2 {
   font: bold 4.688rem "Noto Sans KR", sans-serif;
   line-height: 4.563rem;
   margin-bottom: 0.75rem;
 }
 
-.bg_text .txt_wrap_2 .leaf_box {
+#section_1 .bg_text .txt_wrap_2 .leaf_box {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 3.375rem;
 }
 
-.bg_text .txt_wrap_2 .leaf_box .img_trophy {
+#section_1 .bg_text .txt_wrap_2 .leaf_box .img_trophy {
   width: 3rem;
   height: 3.125rem;
 }
 
-.bg_text .txt_wrap_2 .leaf_box .txt_box-column {
-  color: #ffffff;
+#section_1 .bg_text .txt_wrap_2 .leaf_box .txt_box-column {
   margin: 0 0.625rem;
   display: flex;
   flex-direction: column;
 }
 
-.bg_text .txt_wrap_2 .leaf_box .txt_box__1 {
+#section_1 .bg_text .txt_wrap_2 .leaf_box .txt_box__1 {
   font: normal 400 1.313rem "Noto Sans KR", sans-serif;
   margin-bottom: 0.3125rem;
 }
 
-.bg_text .txt_wrap_2 .leaf_box .txt_box__2 {
+#section_1 .bg_text .txt_wrap_2 .leaf_box .txt_box__2 {
   font: normal 200 1rem "Noto Sans KR", sans-serif;
 }
 
-.bg_text .txt_wrap_3 .store-btn {
+#section_1 .bg_text .txt_wrap_3 .store-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.bg_text .txt_wrap_3 .store-btn span {
+#section_1 .bg_text .txt_wrap_3 .store-btn span {
   margin-left: 0.25rem;
 }
 
-.bg_text .txt_wrap_3 .store-btn a {
+#section_1 .bg_text .txt_wrap_3 .store-btn a {
   display: flex;
   align-items: center;
   background-color: #49a4fc;
-  color: #ffffff;
   z-index: 6;
   border-radius: 0.625rem;
 }
 
-.bg_text .txt_wrap_3 .store-btn .google-btn {
+#section_1 .bg_text .txt_wrap_3 .store-btn .google-btn {
   height: 3.313rem;
   margin-right: 0.9375rem;
 }
 
-.bg_text .txt_wrap_3 .store-btn .apple-btn {
+#section_1 .bg_text .txt_wrap_3 .store-btn .apple-btn {
   height: 3.313rem;
 }
+/* mobile start */
+#section_1_mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  #section_1 {
+    display: none;
+  }
+
+  #section_1_mobile {
+    background: url("../img/img_main_bg_mobile.svg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: block;
+    padding: 68px 0 150px;
+  }
+
+  #section_1_mobile .bg_text {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #section_1_mobile .bg_text .txt_wrap_2 {
+    margin-top: 30px;
+  }
+
+  #section_1_mobile .bg_text .txt_wrap_2 .leaf_box .img_leaf {
+    width: 20px;
+    height: 40px;
+  }
+
+  #section_1_mobile .bg_text .txt_wrap_2 .leaf_box .txt_box__1 {
+    font: normal 500 15px "Noto Sans KR", sans-serif;
+    padding: 5px;
+  }
+
+  #section_1_mobile .bg_text .txt_wrap_2 .leaf_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  #section_1_mobile .bg_text .txt_wrap_2 .leaf_box .txt_box-column {
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section_1_mobile .bg_text .txt_wrap_1 {
+    text-align: center;
+  }
+
+  #section_1_mobile .bg_text .txt_wrap_1 .txt_1 {
+    font: 300 30px "Noto Sans KR", sans-serif;
+    line-height: 31px;
+    margin-top: 10px;
+    padding-bottom: 0;
+  }
+
+  #section_1_mobile .bg_text .txt_wrap_1 .txt_2 {
+    font: 500 44px "Noto Sans KR", sans-serif;
+    line-height: 54px;
+    margin-bottom: 0.75rem;
+  }
+
+  #section_1_mobile .bg_text .img_wrap .wrap_1 {
+    margin-left: -120px;
+    width: 760px;
+  }
+
+  #section_1_mobile .bg_text .img_wrap .wrap_2 {
+    display: none;
+  }
+
+  #section_1_mobile .bg_text .btn_wrap a {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0px;
+    z-index: 10;
+  }
+
+  #section_1_mobile .bg_text .btn_wrap a .btn_download_1 {
+    position: absolute;
+    left: 51%;
+    transform: translateX(-50%);
+    width: auto;
+    bottom: 70px;
+  }
+
+  #section_1_mobile .bg_text .btn_wrap a .btn_download_2 {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    z-index: 10;
+  }
+
+  .btnShow {
+    animation-name: fadeIn;
+    animation-duration: 0.2s;
+    animation-delay: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  .btnHide {
+    animation-name: fadeOut;
+    animation-duration: 0.2s;
+    animation-delay: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  /* section_2*/
+  #section_2 .inner .graphBox {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* mobile end */
 
 /* section_2 */
 /* 공유 css */
@@ -444,15 +590,6 @@
   }
   to {
     width: 14rem;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 

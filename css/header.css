@@ -1,0 +1,43 @@
+.header_wrap {
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  transition: top 0.2s ease-in-out;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 1.25rem;
+  margin-right: 3.563rem;
+}
+
+.header_wrap h1 a img {
+  margin: 0.875rem 0;
+}
+
+.header-up {
+  top: -4.375rem;
+}
+
+@media (max-width: 1024px) {
+  header .header_wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  header .header_wrap h1 a img {
+    margin: 0.875rem 0;
+  }
+}
