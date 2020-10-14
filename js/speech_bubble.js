@@ -1,4 +1,4 @@
-let RIGHT_BOX = $("#section_2 .graphBox__right");
+let RIGHT_BOX = $(".graphBox__right");
 
 $(window).scroll(function () {
   let windowH = $(window).height(), // window 높이를 가져온다.
