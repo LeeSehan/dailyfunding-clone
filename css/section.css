@@ -589,12 +589,20 @@
   display: none;
 }
 
+#section_5 .mobile_table {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   #section_1 {
     display: none;
   }
 
   #section_2 {
+    display: none;
+  }
+
+  #section_5 .pc_table {
     display: none;
   }
 
@@ -727,7 +735,9 @@
   /* section_2_mobile */
   #section_2_mobile,
   #section_3,
-  #section_4 {
+  #section_4,
+  #section_5,
+  #section_6 {
     display: block;
     padding: 140px 0 24px;
     border-bottom: rgba(128, 128, 128, 0.4) solid 0.0625rem;
@@ -735,7 +745,9 @@
 
   #section_2_mobile .inner,
   #section_3 .inner,
-  #section_4 .inner {
+  #section_4 .inner,
+  #section_5 .inner,
+  #section_6 .inner {
     max-width: 80%;
     margin: 0 auto;
   }
@@ -755,8 +767,7 @@
   #section_2_mobile .graphBox__left .column_1,
   #section_3 .graphBox__left .column_1,
   #section_4 .graphBox__left .column_1,
-  #section_5 .graphBox__left .column_1,
-  #section_6 .graphBox__left .column_1 {
+  #section_5 .graphBox__left .column_1 {
     font: 700 35px "Noto Sans KR", sans-serif;
     text-align: center;
     line-height: 2.7rem;
@@ -1026,11 +1037,44 @@
     padding: 0.5rem 0 0 0.3rem;
   }
 
+  /* section_5 */
+  #section_5 .mobile_table {
+    display: block;
+  }
+
+  #section_5 .inner .graphBox__left {
+    margin-top: 0;
+  }
+
+  #section_5 .inner .graphBox__right .right_box table tr td {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 11.375rem;
+    height: 5.188rem;
+  }
+
+  #section_5 .graphBox__right .right_box {
+    margin-bottom: 180px;
+  }
+
   /* section_6_mobile */
+  #section_6 .graphBox__left .column_1 {
+    font: 700 35px "Noto Sans KR", sans-serif;
+    text-align: center;
+    line-height: 2.7rem;
+    margin-bottom: 25px;
+  }
+
   #section_6 .inner .graphBox__left .column_2 a {
     display: flex;
     justify-content: center;
-    font: normal 15px "Noto Sans KR", sans-serif;
+    font: 300 15px "Noto Sans KR", sans-serif;
+  }
+
+  #section_6 .inner .graphBox__left .column_2 a img {
+    width: 25px;
+    height: 25px;
   }
 
   #section_6 .inner .graphBox__right .question_wrap .wrap {
