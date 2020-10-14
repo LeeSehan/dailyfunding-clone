@@ -27,11 +27,11 @@ function hasScrolled() {
     $(LOGO_1).show();
     $(LOGO_2).hide();
     $(".header_wrap").css("background-color", "transparent");
-    $(BTN_DOWN_1).removeClass("btnHide").addClass("btnShow");
+    $(BTN_DOWN_1).show();
     $(BTN_DOWN_2).removeClass("btnShow").addClass("btnHide");
     $(BTN_COLOR).css("background-color", "transparent").css("box-shadow", "0 0 0")
   } else{
-    $(BTN_DOWN_1).removeClass("btnShow").addClass("btnHide");
+    $(BTN_DOWN_1).hide();
     $(BTN_DOWN_2).removeClass("btnHide").addClass("btnShow");
     $(BTN_COLOR).css("background-color", "white").css("box-shadow", "0px 0px 15px rgba(0, 0, 0, 0.15)")
   }

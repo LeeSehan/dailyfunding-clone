@@ -870,6 +870,9 @@
     margin-left: 1.063rem;
   }
   /* section_3*/
+  #section_3 .graphBox .graphBox__right {
+    margin: 10% 0 18% 0;
+  }
 
   /* section_6*/
   #section_6 .inner .graphBox__left .column_2 a {
