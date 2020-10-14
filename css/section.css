@@ -11,9 +11,33 @@
   color: #ffffff;
 }
 
-@media (max-width: 1200px) {
-  .bg_text {
-    margin-left: 55%;
+@media (max-width: 1800px) {
+  #section_1 .bg_text {
+    margin-left: 48%;
+  }
+}
+
+@media (max-width: 1700px) {
+  #section_1 .bg_text {
+    margin-left: 50%;
+  }
+}
+
+@media (max-width: 1650px) {
+  #section_1 .bg_text {
+    margin-left: 53%;
+  }
+}
+
+@media (max-width: 1140px) {
+  #section_1 .bg_text {
+    margin-left: 50%;
+  }
+}
+
+@media (max-width: 1100px) {
+  #section_1 .bg_text {
+    margin-left: 45%;
   }
 }
 
@@ -793,7 +817,7 @@
     display: block;
     font: 300 13px "Noto Sans KR", sans-serif;
     color: #808080;
-    margin: 400px 0 0 89%;
+    margin: 400px 0 0 80%;
   }
 
   #section_2_mobile .box-effect {
