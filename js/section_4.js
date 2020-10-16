@@ -19,13 +19,13 @@ $(IMG_IC).hover(
 );
 
 $(window).scroll(function () {
-  let windowH = $(window).height(), // window 높이를 가져온다.
-    scrollY = $(window).scrollTop(); // window 스크롤바 수직 위치를 가져온다.
+  let windowH = $(window).height(); // window 높이를 가져온다.
+  let st = $(this).scrollTop(); // 현재 스크롤 위치
 
   $(GRAPH_BOX).each(function () {
-    let elPosition = $(this).offset().top; // 선택한 graphBox_right의 위쪽 좌표를 가져온다.
+    let boxPosition = $(this).offset().top; // 선택한 graphBox_right의 위쪽 좌표를 가져온다.
     // if- RIGHT_BOX의 윗부분이 나타나면 실행
-    if (scrollY > elPosition - windowH) {
+    if (st > boxPosition - windowH) {
       $(BAR_1).addClass("bar-effect_1").css("background-color", "#30a3f4");
       $(BAR_2).addClass("bar-effect_2").css("background-color", "#E8EAEF");
       $(BAR_3).addClass("bar-effect_3").css("background-color", "#E8EAEF");

@@ -886,6 +886,12 @@
     font: 700 21px "Noto Sans KR", sans-serif;
   }
 
+  #section_2_mobile .graphBox__right .right_box .lg_bubble .dropdown_1 option,
+  #section_2_mobile .graphBox__right .right_box .lg_bubble .dropdown_2 option {
+    font: 300 1.2rem "Noto Sans KR", sans-serif;
+    color: black;
+  }
+
   #section_2_mobile .graphBox__right .right_box .lg_bubble .box_1 span,
   #section_2_mobile .graphBox__right .right_box .lg_bubble .box_2 {
     font: 700 21px "Noto Sans KR", sans-serif;

@@ -4,23 +4,11 @@ const BTN_DOWN_1 = $("#section_1_mobile .bg_text .btn_wrap a .btn_download_1");
 const BTN_DOWN_2 = $("#section_1_mobile .bg_text .btn_wrap a .btn_download_2");
 const BTN_COLOR = $("#section_1_mobile .bg_text .btn_wrap a");
 
-let didScroll;
-let lastScrollTop = 0;
-let delta = 0.1;
-let headerWrap = $(".header_wrap").outerHeight();
-// 스크롤한 것을 알림
+let lastScroll = 0;
+let headerHeight = $(".header_wrap").outerHeight(); // 영향을 받을 요소. header의 전체 높이 (margin, border, padding, height의 값을 모두 더한 값)
+
+// 스크롤 했을 때 동작을 알림
 $(window).scroll(function (event) {
-  didScroll = true;
-});
-
-setInterval(function () {
-  if (didScroll) {
-    hasScrolled();
-    didScroll = false;
-  }
-}, 250);
-
-function hasScrolled() {
   let st = $(this).scrollTop(); // 현재 스크롤 위치
 
   if (st == 0) {
@@ -36,11 +24,7 @@ function hasScrolled() {
     $(BTN_COLOR).css("background-color", "white").css("box-shadow", "0px 0px 15px rgba(0, 0, 0, 0.15)")
   }
 
-  if (Math.abs(lastScrollTop - st) <= delta) {
-    return;
-  }
-
-  if (st > lastScrollTop && st > headerWrap) {
+   if (st > lastScroll && st > headerHeight) {
     $(".header_wrap").removeClass("header-down").addClass("header-up");
     $(LOGO_1).hide();
     $(LOGO_2).show();
@@ -51,5 +35,5 @@ function hasScrolled() {
     }
   }
 
-  lastScrollTop = st;
-}
+  lastScroll = st;
+});
