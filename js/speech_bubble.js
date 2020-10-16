@@ -13,7 +13,7 @@ $(window).scroll(function () {
   });
 });
 
-$("select").change( function bubbleVal() {
+$("#section_2 select").change( function bubbleVal() {
   let dropdown_1 = $(".graphBox__right .dropdown_1").val();
   let dropdown_2 = $(".graphBox__right .dropdown_2").val();
   
@@ -23,6 +23,21 @@ $("select").change( function bubbleVal() {
     let result = ((dropdown_1 * 16) / 100 / 12) * dropdown_2;
     result = comma(result);
     $(".m_amount").text(result);
+    console.log($(".m_amount"));
+  }
+});
+
+$("#section_2_mobile select").change( function bubbleVal() {
+  let dropdown_1 = $(".graphBox__right .mobile_drop_1").val();
+  let dropdown_2 = $(".graphBox__right .mobile_drop_2").val();
+  
+  if (dropdown_1 == "0" || dropdown_2 == "0") {
+    $(".mobile_amount").text("0");
+  } else {
+    let result = ((dropdown_1 * 16) / 100 / 12) * dropdown_2;
+    result = comma(result);
+    $(".mobile_amount").text(result);
+    console.log($(".mobile_amount"));
   }
 });
 
@@ -32,14 +47,12 @@ function comma(num){
   num = String(num); // 숫자를 문자열로 변환
   len = num.length;
   point = len % 3;
-  
-  str = num.substring(0, point); 
+
+  str = num.substring(0, point);
   while (point < len) {
-      if (str != "") str += ","; 
+      if (str != "") str += ",";
       str += num.substring(point, point + 3);
       point += 3;
   }
   return str;
 }
-
-bubbleVal();
