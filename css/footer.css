@@ -70,3 +70,14 @@ footer .box .copy_txt {
   flex-direction: row;
   justify-content: center;
 }
+
+@media (max-width: 425px) {
+  footer .box .info_bot ul li {
+    margin: 6px;
+  }
+
+  footer .box .copy_txt {
+    margin-top: 10px;
+    font: 300 14px "Noto Sans KR", sans-serif;
+  }
+}
