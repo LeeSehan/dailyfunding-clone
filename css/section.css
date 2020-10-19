@@ -1315,6 +1315,35 @@
       left: 6%;
     }
   }
+
+  #section_3 .inner .graphBox__right .graph_wrap {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .txt_wrap {
+    font: 400 20px "Noto Sans KR", sans-serif;
+    opacity: 55%;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .wrap_2 {
+    margin: 0 6%;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_stable {
+    top: 97px;
+    right: 178px;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_balance {
+    top: 67px;
+    right: 129px;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_profit {
+    top: 40px;
+    right: 130px;
+  }
 }
 
 @media (max-width: 454px) {
@@ -1344,6 +1373,7 @@
   #section_2_mobile .graphBox__right .right_box .lg_bubble .mobile_drop_1,
   #section_2_mobile .graphBox__right .right_box .lg_bubble .mobile_drop_2 {
     font: 700 17px "Noto Sans KR", sans-serif;
+    width: 5.5rem;
   }
 
   #section_2_mobile .graphBox__right .right_box .lg_bubble .box_1 span,
@@ -1362,6 +1392,10 @@
     margin-left: 1.063rem;
   }
 
+  #section_3 .inner .graphBox__right .graph_wrap .wrap_2 {
+    margin: 0 3%;
+  }
+
   #section_4 .inner .graphBox__left .column_2 li a {
     width: 100px;
   }
@@ -1378,6 +1412,119 @@
 
   #section_6 .inner .graphBox__right .question_wrap .wrap {
     width: 20.31rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #section_2_mobile .graphBox__right .right_box .lg_bubble,
+  #section_4 .graphBox__right .right_box .lg_bubble {
+    padding: 15px 0 0 15px;
+    width: 300px;
+    height: 160px;
+    background-size: contain;
+  }
+
+  #section_2_mobile .graphBox__right .right_box .lg_bubble .small-bubble {
+    width: 260px;
+    background-size: contain;
+  }
+
+  #section_2_mobile .graphBox__right .right_box .lg_bubble .mobile_drop_1,
+  #section_2_mobile .graphBox__right .right_box .lg_bubble .mobile_drop_2 {
+    font: 700 15px "Noto Sans KR", sans-serif;
+  }
+
+  #section_2_mobile .graphBox__right .right_box .lg_bubble .box_1 span,
+  #section_2_mobile .graphBox__right .right_box .lg_bubble .box_2 {
+    font: 700 15px "Noto Sans KR", sans-serif;
+  }
+
+  #section_2_mobile .graphBox .small_txt {
+    margin: 400px 0 0 65%;
+  }
+
+  #section_2_mobile .inner .graphBox__right .right_box .small_txt,
+  #section_4 .inner .graphBox__right .right_box .small_txt {
+    font: 300 12px "Noto Sans KR", sans-serif;
+    margin-top: -32px;
+    margin-left: 1.063rem;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap {
+    width: 300px;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .wrap_2 {
+    margin: 0 -7%;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_stable {
+    top: 97px;
+    right: 129px;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_balance {
+    top: 67px;
+    right: 79px;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .types-img .img_graph_profit {
+    top: 40px;
+    right: 80px;
+  }
+
+  #section_3 .inner .graphBox__right .mobile_graph_types .bt_1_stabletype {
+    width: 91px;
+  }
+
+  #section_3 .inner .graphBox__right .mobile_graph_types .bt_2_balancetype {
+    width: 91px;
+  }
+
+  #section_3 .inner .graphBox__right .mobile_graph_types .bt_3_profittype {
+    width: 91px;
+  }
+
+  #section_4 .graphBox__right .right_box .lg_bubble .small-bubble {
+    width: 260px;
+    background-size: contain;
+  }
+
+  #section_6 .inner .graphBox__right .question_wrap .wrap {
+    width: auto;
+    word-break: keep-all;
+  }
+}
+
+@media (max-width: 375px) {
+  #section_2_mobile .graphBox__right .right_box .lg_bubble,
+  #section_4 .graphBox__right .right_box .lg_bubble {
+    padding: 8px 0 0 15px;
+    width: 275px;
+    height: 160px;
+  }
+
+  #section_2_mobile .graphBox__right .right_box .lg_bubble .small-bubble {
+    width: 240px;
+  }
+
+  #section_2_mobile .inner .graphBox__right .right_box .small_txt,
+  #section_4 .inner .graphBox__right .right_box .small_txt {
+    margin-top: -44px;
+  }
+
+  #section_2_mobile .graphBox .small_txt {
+    margin: 400px 0 0 60%;
+  }
+
+  #section_4 .graphBox__right .right_box .lg_bubble .small-bubble {
+    width: 240px;
+  }
+
+  #section_4 .graphBox__right .right_box .lg_bubble .box_1,
+  #section_4 .graphBox__right .right_box .lg_bubble .box_2 {
+    font: 700 15px "Noto Sans KR", sans-serif;
+    padding: 13px 0 0 5px;
   }
 }
 /* mobile end */

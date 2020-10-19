@@ -47,6 +47,7 @@ footer .box .info {
 }
 
 footer .box .notice {
+  text-align: center;
   margin-top: 3.563rem;
 }
 
@@ -71,6 +72,13 @@ footer .box .copy_txt {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  footer .inner .box .notice {
+    white-space: pre-line;
+    word-break: keep-all;
+  }
+}
+
 @media (max-width: 425px) {
   footer .box .info_bot ul li {
     margin: 6px;
@@ -79,5 +87,22 @@ footer .box .copy_txt {
   footer .box .copy_txt {
     margin-top: 10px;
     font: 300 14px "Noto Sans KR", sans-serif;
+  }
+}
+
+@media (max-width: 380px) {
+  footer .inner {
+    max-width: 65.63rem;
+    margin: 0 auto;
+    font: 300 16px "Noto Sans KR", sans-serif;
+    letter-spacing: -0.36px;
+    color: #ffffff;
+  }
+
+  footer .box .info_bot ul {
+    display: flex;
+    flex-direction: row;
+    font: 300 12px "Noto Sans KR", sans-serif;
+    color: #808080;
   }
 }
