@@ -236,6 +236,7 @@
 
 #section_2 .graphBox__right .right_box .lg_bubble .dropdown_1,
 #section_2 .graphBox__right .right_box .lg_bubble .dropdown_2 {
+  cursor: pointer;
   outline: 0;
   border: none;
   -webkit-appearance: none;
