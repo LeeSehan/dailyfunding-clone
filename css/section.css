@@ -551,6 +551,7 @@
 }
 
 #section_6 .inner .graphBox__right .question_wrap .wrap .btn {
+  cursor: pointer;
   background: url(../img/bt_arrow_down_black.svg) no-repeat;
   display: inline-block;
   width: 4.25rem;
