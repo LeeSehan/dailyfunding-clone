@@ -771,6 +771,7 @@
     display: block;
     padding: 140px 0 24px;
     border-bottom: rgba(128, 128, 128, 0.4) solid 0.0625rem;
+    word-break: keep-all;
   }
 
   #section_2_mobile .inner,
@@ -1274,6 +1275,13 @@
     width: 125px;
   }
 
+  #section_4 .inner .graphBox__left .column_2 .li_1 .img_help {
+    left: 19%;
+    top: 66%;
+    width: 250px;
+    height: 80px;
+  }
+
   @keyframes s2Move {
     from {
       top: 52%;
@@ -1348,9 +1356,6 @@
 
 @media (max-width: 454px) {
   #section_5 .inner .graphBox__right .right_box .mobile_table tr td {
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
     width: 9.375rem;
     height: 5.188rem;
   }
@@ -1398,6 +1403,13 @@
 
   #section_4 .inner .graphBox__left .column_2 li a {
     width: 100px;
+  }
+
+  #section_4 .inner .graphBox__left .column_2 .li_1 .img_help {
+    left: 12%;
+    top: 66%;
+    width: 250px;
+    height: 80px;
   }
 
   #section_4 .graphBox__right .right_box .lg_bubble .small-bubble {
@@ -1525,6 +1537,55 @@
   #section_4 .graphBox__right .right_box .lg_bubble .box_2 {
     font: 700 15px "Noto Sans KR", sans-serif;
     padding: 13px 0 0 5px;
+  }
+
+  #section_5 .inner .graphBox__right .right_box .mobile_table tr td {
+    width: 9rem;
+    height: 5.188rem;
+  }
+}
+
+@media (max-width: 360px) {
+  #section_3 .inner .graphBox__right .graph_wrap .txt_wrap {
+    font: 400 17px "Noto Sans KR", sans-serif;
+    opacity: 55%;
+  }
+
+  #section_3 .inner .graphBox__right .graph_wrap .wrap_2 {
+    margin: 0 -3%;
+  }
+
+  #section_4 .inner .graphBox__left .column_2 li a {
+    width: 75px;
+  }
+
+  #section_4 .inner .graphBox__left .column_2 .li_1 .img_help {
+    left: -1%;
+    top: 66%;
+    width: 250px;
+    height: 80px;
+  }
+
+  #section_5 .inner .graphBox__right .right_box .mobile_table tr td {
+    width: 7.375rem;
+    height: 5.188rem;
+  }
+
+  #section_5 .inner .graphBox__right .right_box table tr td img {
+    margin: 2.188rem 0;
+  }
+}
+
+@media (max-width: 320px) {
+  @keyframes s2Move {
+    from {
+      top: 52%;
+      left: 65%;
+    }
+    to {
+      top: 52%;
+      left: -2%;
+    }
   }
 }
 /* mobile end */
